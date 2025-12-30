@@ -21,7 +21,7 @@ Mais c'est là que ça devient un peu émouvant pour moi. Ce qui n'était au dé
 
 J'ai passé des heures à m'obséder sur les moindres détails : perfectionner les métadonnées, épurer l'interface et m'assurer que les sections anime et film soient impeccables, parce que je voulais que ce soit une plateforme dont on puisse être vraiment fiers. Pourtant, le vrai déclic n'est pas venu du code, mais du moment où j'ai vu les listes d'utilisateurs se remplir. Voir l'un d'entre vous découvrir une série au pif un vendredi soir, ou enfin se poser devant ce film que je conseille depuis des mois... c'est ce qui a donné tout son sens au travail accompli.
 
-C'est une chose de coder une application, c'en est une autre de voir ses amis et sa famille y trouver des contenus qu'ils aiment vraiment. Cette année a été un énorme apprentissage pour moi, et je suis honnêtement super fier de voir le chemin parcouru. Tout a commencé avec un script vide et une "private joke" sur Snapchat, pour devenir aujourd'hui cet espace partagé où l'on profite tous ensemble de belles histoires.
+C'est une chose de coder une application, c'en est une autre de voir ses amis et sa famille y trouver des contenus qu'ils aiment vraiment. Cette année a été un énorme apprentissage pour moi, et je suis honnêtement super fier de voir le chemin parcouru. Tout a commencé avec un script vide, quelques tutoriels et une private joke, pour devenir aujourd'hui cet espace partagé où l'on profite tous ensemble du Cinéma.
 
 Merci d'avoir donné sa chance à mon appli "faite maison" et d'avoir fait de 2025 une si belle première année. J'ai déjà hâte de continuer à peaufiner tout ça et de voir ce qu'on va découvrir ensemble en 2026.
 
