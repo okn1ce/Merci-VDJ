@@ -40,10 +40,10 @@ const App: React.FC = () => {
       <BackgroundWaves mousePosition={mousePosition} />
 
       {/* Main Content Container */}
-      <div className="relative z-10 flex flex-col h-full p-8 md:p-12 lg:p-16 pointer-events-none">
+      <div className="relative z-10 flex flex-col h-full p-6 md:p-10 lg:p-14 pointer-events-none">
         
         {/* Header Section */}
-        <header className="flex justify-between items-start w-full mb-6 md:mb-10 lg:mb-12">
+        <header className="flex justify-between items-start w-full mb-4 md:mb-8 lg:mb-10">
           <ParallaxWrapper mousePosition={mousePosition} factor={0.03}>
             <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl leading-[0.8] text-black tracking-tighter uppercase">
               {headerText}
@@ -59,7 +59,7 @@ const App: React.FC = () => {
             </div>
             
             {/* Language Switcher */}
-            <nav className="flex gap-4 text-[9px] uppercase tracking-widest font-bold text-black mt-4 pointer-events-auto">
+            <nav className="flex gap-4 text-[10px] uppercase tracking-widest font-bold text-black mt-4 pointer-events-auto">
               <button 
                 onClick={() => setLang('en')} 
                 className={`transition-all duration-300 hover:opacity-100 ${lang === 'en' ? 'opacity-100 underline underline-offset-4' : 'opacity-20'}`}
@@ -76,14 +76,14 @@ const App: React.FC = () => {
           </ParallaxWrapper>
         </header>
 
-        {/* Discourse Section - Multi-column layout to fit everything */}
+        {/* Discourse Section - Multi-column layout with enlarged text */}
         <section className="flex-1 flex items-center justify-center overflow-hidden w-full">
           <ParallaxWrapper mousePosition={mousePosition} factor={0.005} className="w-full">
-            <div className="columns-1 md:columns-2 lg:columns-3 gap-8 lg:gap-12 w-full text-black pointer-events-auto">
+            <div className="columns-1 md:columns-2 lg:columns-3 gap-10 lg:gap-14 w-full text-black pointer-events-auto">
               {textLines.map((line, idx) => (
                 <p 
                   key={idx} 
-                  className="mb-4 text-[11px] md:text-[12px] lg:text-[13px] leading-relaxed font-light text-black/80 text-justify break-inside-avoid"
+                  className="mb-6 text-[13px] md:text-[15px] lg:text-[17px] leading-relaxed font-light text-black/90 text-justify break-inside-avoid selection:bg-black selection:text-white"
                 >
                   {line}
                 </p>
@@ -93,7 +93,7 @@ const App: React.FC = () => {
         </section>
         
         {/* Footer */}
-        <footer className="mt-6 md:mt-10 flex justify-between items-end w-full">
+        <footer className="mt-4 md:mt-8 flex justify-between items-end w-full">
           <ParallaxWrapper mousePosition={mousePosition} factor={0.01}>
             <div className="text-[9px] uppercase tracking-[0.2em] text-black/30 font-medium">
               {lang === 'en' ? 'A private space for the collective' : 'Un espace privé pour le collectif'}

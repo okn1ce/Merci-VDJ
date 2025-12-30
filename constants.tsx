@@ -15,7 +15,7 @@ Thank you for taking a chance on my "home-cooked" app and for making 2025 such a
 
 export const DISCOURSE_TEXT_FR = `C'est vraiment fou de se dire que VIDIO DI JOUR fête déjà sa première année. En repensant à cette année 2025, je suis sincèrement heureux de voir que ce projet a pu se concrétiser et que vous ayez passé autant de temps à l'utiliser.
 
-Quand j'ai commencé à me plonger dans le code, ce n'était qu'un projet perso né de nombreuses nuits blanches. Je me souviens être resté là, à me demander quel nom lui donner, et je revenais sans cesse à cette blague qu'on traîne depuis des années : "Vidio Di Jour". C'était le nom de notre vieux groupe Snapchat ; notre façon un peu bête et drôle de dire "Video of the Day" avec ce gros accent marocain qu'on prenait toujours pour rigoler. Au début, j'ai choisi ce nom parce que je pensais que ça resterait un tout petit truc privé, juste entre nous.
+Quand j'ai commencé à me plonger dans le code, ce n'était qu'un projet perso né de nombreuses nuits blanches. Je me souviens être resté là, à me demander quel nom lui donner, et je revenais sans cesse à cette blague qu'on traîne depuis des années : "Vidio Di Jour". C'était le nom de notre vieux groupe Snapchat ; notre façon un peu bête et drôle de dire "Video du jour" avec ce gros accent marocain qu'on prenait toujours pour rigoler. Au début, j'ai choisi ce nom parce que je pensais que ça resterait un tout petit truc privé, juste entre nous.
 
 Mais c'est là que ça devient un peu émouvant pour moi. Ce qui n'était au départ qu'un outil de niche pour quelques amis a fini par grandir. Voir le projet s'étendre au-delà du groupe initial pour inclure la famille, puis les amis d'amis, c'est tout simplement incroyable.
 
