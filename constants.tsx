@@ -26,5 +26,3 @@ C'est une chose de coder une application, c'en est une autre de voir ses amis et
 Merci d'avoir donné sa chance à mon appli "faite maison" et d'avoir fait de 2025 une si belle première année. J'ai déjà hâte de continuer à peaufiner tout ça et de voir ce qu'on va découvrir ensemble en 2026.
 
 — Ismail B.`;
-
-export const BACKGROUND_IMAGE = "https://i.ibb.co/mVqWyZXX/pixar-story-featured.png";
