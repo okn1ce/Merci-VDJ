@@ -13,4 +13,18 @@ Thank you for taking a chance on my "home-cooked" app and for making 2025 such a
 
 - Ismail B.`;
 
-export const BACKGROUND_IMAGE = "https://i.ibb.co/mVqWyZXX/pixar-story-featured.png"; // Cinematic theater/film vibe
+export const DISCOURSE_TEXT_FR = `C'est vraiment fou de se dire que VIDIO DI JOUR fête déjà sa première année. En repensant à cette année 2025, je suis sincèrement heureux de voir que ce projet a pu se concrétiser et que vous ayez passé autant de temps à l'utiliser.
+
+Quand j'ai commencé à me plonger dans le code, ce n'était qu'un projet perso né de nombreuses nuits blanches. Je me souviens être resté là, à me demander quel nom lui donner, et je revenais sans cesse à cette blague qu'on traîne depuis des années : "Vidio Di Jour". C'était le nom de notre vieux groupe Snapchat ; notre façon un peu bête et drôle de dire "Video of the Day" avec ce gros accent marocain qu'on prenait toujours pour rigoler. Au début, j'ai choisi ce nom parce que je pensais que ça resterait un tout petit truc privé, juste entre nous.
+
+Mais c'est là que ça devient un peu émouvant pour moi. Ce qui n'était au départ qu'un outil de niche pour quelques amis a fini par grandir. Voir le projet s'étendre au-delà du groupe initial pour inclure la famille, puis les amis d'amis, c'est tout simplement incroyable.
+
+J'ai passé des heures à m'obséder sur les moindres détails : perfectionner les métadonnées, épurer l'interface et m'assurer que les sections anime et film soient impeccables, parce que je voulais que ce soit une plateforme dont on puisse être vraiment fiers. Pourtant, le vrai déclic n'est pas venu du code, mais du moment où j'ai vu les listes d'utilisateurs se remplir. Voir l'un d'entre vous découvrir une série au pif un vendredi soir, ou enfin se poser devant ce film que je conseille depuis des mois... c'est ce qui a donné tout son sens au travail accompli.
+
+C'est une chose de coder une application, c'en est une autre de voir ses amis et sa famille y trouver des contenus qu'ils aiment vraiment. Cette année a été un énorme apprentissage pour moi, et je suis honnêtement super fier de voir le chemin parcouru. Tout a commencé avec un script vide et une "private joke" sur Snapchat, pour devenir aujourd'hui cet espace partagé où l'on profite tous ensemble de belles histoires.
+
+Merci d'avoir donné sa chance à mon appli "faite maison" et d'avoir fait de 2025 une si belle première année. J'ai déjà hâte de continuer à peaufiner tout ça et de voir ce qu'on va découvrir ensemble en 2026.
+
+— Ismail B.`;
+
+export const BACKGROUND_IMAGE = "https://i.ibb.co/mVqWyZXX/pixar-story-featured.png";
