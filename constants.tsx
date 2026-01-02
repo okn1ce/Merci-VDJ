@@ -1,28 +1,49 @@
 
-export const DISCOURSE_TEXT = `It’s honestly wild to think that VIDIO DI JOUR is already hitting its one-year mark. Looking back at 2025, I’m just genuinely happy this project actually came together and that you guys have spent so much time using it.
+import { PatchNote } from './types';
 
-When I first started diving into the code for this, it was just a side project born out of a lot of late nights. I remember sitting there, wondering what to call it, and I kept coming back to that long-running joke we’ve had for years. "Vidio Di Jour", the name of our old Snapchat group. It was just our stupid, funny way of saying "Video of the Day" with that heavy Moroccan accent we always used to joke around with. At first, I used the name because I thought this was just going to be a tiny, private thing for the inner circle.
-
-But that’s the part that actually gets me a little emotional. What started as a niche tool for a few friends somehow grew. Seeing it spread from that original group to include family, and then friends of friends, has been incredible.
-
-I spent hours obsessing over the small stuff, perfecting the metadata, cleaning up the interface, and making sure the anime and movie sections felt just right, because I wanted it to feel like something we could actually be proud to use. But the real "click" moment for me wasn't the code; it was seeing the "Active Sessions" start to fill up. Seeing one of you discover a random show on a Friday night or finally sit down to watch that one movie I’ve been recommending for months... that’s what made the work worth it.
-
-It’s one thing to build an app, but it’s another thing to see your friends and family actually finding something they love inside of it. This year has been a massive learning curve for me, and I’m honestly so proud of how much it’s grown. It started as a blank script and a Snapchat inside joke, and turned into this shared space where we all just get to enjoy good stories.
-
-Thank you for taking a chance on my "home-cooked" app and for making 2025 such a great first year. I’m already looking forward to tweaking things further and seeing what we all discover in 2026.
-
-- Ismail B.`;
-
-export const DISCOURSE_TEXT_FR = `C'est vraiment fou de se dire que VIDIO DI JOUR fête déjà sa première année. En repensant à cette année 2025, je suis sincèrement heureux de voir que ce projet a pu se concrétiser et que vous ayez passé autant de temps à l'utiliser.
-
-Quand j'ai commencé à me plonger dans le code, ce n'était qu'un projet perso né de nombreuses nuits blanches. Je me souviens être resté là, à me demander quel nom lui donner, et je revenais sans cesse à cette blague qu'on traîne depuis des années : "Vidio Di Jour". C'était le nom de notre vieux groupe Snapchat ; notre façon un peu bête et drôle de dire "Video du jour" avec ce gros accent marocain qu'on prenait toujours pour rigoler. Au début, j'ai choisi ce nom parce que je pensais que ça resterait un tout petit truc privé, juste entre nous.
-
-Mais c'est là que ça devient un peu émouvant pour moi. Ce qui n'était au départ qu'un outil de niche pour quelques amis a fini par grandir. Voir le projet s'étendre au-delà du groupe initial pour inclure la famille, puis les amis d'amis, c'est tout simplement incroyable.
-
-J'ai passé des heures à m'obséder sur les moindres détails : perfectionner les métadonnées, épurer l'interface et m'assurer que les sections anime et film soient impeccables, parce que je voulais que ce soit une plateforme dont on puisse être vraiment fiers. Pourtant, le vrai déclic n'est pas venu du code, mais du moment où j'ai vu les listes d'utilisateurs se remplir. Voir l'un d'entre vous découvrir une série au pif un vendredi soir, ou enfin se poser devant ce film que je conseille depuis des mois... c'est ce qui a donné tout son sens au travail accompli.
-
-C'est une chose de coder une application, c'en est une autre de voir ses amis et sa famille y trouver des contenus qu'ils aiment vraiment. Cette année a été un énorme apprentissage pour moi, et je suis honnêtement super fier de voir le chemin parcouru. Tout a commencé avec un script vide, quelques tutoriels et une private joke, pour devenir aujourd'hui cet espace partagé où l'on profite tous ensemble du Cinéma.
-
-Merci d'avoir donné sa chance à mon appli "faite maison" et d'avoir fait de 2025 une si belle première année. J'ai déjà hâte de continuer à peaufiner tout ça et de voir ce qu'on va découvrir ensemble en 2026.
-
-— Ismail B.`;
+export const PATCH_NOTES: PatchNote[] = [
+  {
+    version: "v2.1.0",
+    date: "March 2026",
+    title: "The Spring Awakening",
+    description: "A major overhaul of the discovery engine and server infrastructure to handle our growing library.",
+    changes: [
+      { type: 'new', text: "Introduced 'Vidio Collections' - curated lists of thematic cinema." },
+      { type: 'improved', text: "Enhanced 4K streaming stability for remote users." },
+      { type: 'system', text: "Migrated database to NVMe storage for 3x faster metadata loading." },
+      { type: 'fix', text: "Resolved the 'Infinite Loading' bug on older Smart TV browsers." }
+    ]
+  },
+  {
+    version: "v2.0.4",
+    date: "February 14, 2026",
+    title: "Valentine's Maintenance",
+    description: "Minor tweaks to ensure everyone can enjoy their favorite romance movies without a hitch.",
+    changes: [
+      { type: 'improved', text: "Updated metadata for the 'Romantic Classics' category." },
+      { type: 'fix', text: "Fixed subtitle sync issues on several French-language titles." }
+    ]
+  },
+  {
+    version: "v2.0.0",
+    date: "January 2026",
+    title: "Year Two: The New Chapter",
+    description: "Celebrating our first anniversary with a completely rewritten frontend and brand identity.",
+    changes: [
+      { type: 'new', text: "New aesthetic landing page with interactive parallax effects." },
+      { type: 'new', text: "Dedicated anime section with automated sub/dub sorting." },
+      { type: 'improved', text: "Complete re-encoding of the top 50 most watched movies to AV1." },
+      { type: 'announcement', text: "Officially supporting 20+ active simultaneous users." }
+    ]
+  },
+  {
+    version: "v1.8.2",
+    date: "December 2025",
+    title: "Holiday Prep",
+    description: "Stabilizing the server for the holiday rush.",
+    changes: [
+      { type: 'system', text: "Added 16TB of additional storage capacity." },
+      { type: 'fix', text: "Corrected poster art for the Marvel Cinematic Universe collection." }
+    ]
+  }
+];

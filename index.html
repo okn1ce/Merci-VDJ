@@ -1,11 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VIDIO DI JOUR | Anniversary</title>
-    <!-- Favicon to fix 404 error -->
+    <title>VIDIO DI JOUR | Nouveautés</title>
     <link rel="icon" href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAAAAMAtICibAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAWSURBVBhXY/gPxBAmDByYGBgYGBgYGAA8AAN/AL8f4AAAAABJRU5ErkJggg==">
     
     <script src="https://cdn.tailwindcss.com"></script>
@@ -24,29 +22,35 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
       body {
         margin: 0;
         padding: 0;
-        background-color: #ffffff;
-        overflow: hidden;
+        background-color: #08090a;
         font-family: 'Inter', sans-serif;
+        color: white;
+        overflow-x: hidden;
       }
-      .font-serif {
-        font-family: 'Playfair Display', serif;
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+      
+      input, textarea, select {
+        background: rgba(255, 255, 255, 0.03) !important;
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
+        color: white !important;
+        transition: all 0.2s ease;
       }
-      .no-scrollbar::-webkit-scrollbar {
-        display: none;
+      input:focus, textarea:focus {
+        border-color: rgba(34, 211, 238, 0.4) !important;
+        background: rgba(255, 255, 255, 0.05) !important;
+        outline: none;
       }
-      .no-scrollbar {
-        -ms-overflow-style: none;
-        scrollbar-width: none;
+      @keyframes slideUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
       }
-      ::selection {
-        background: rgba(0,0,0,0.1);
-        color: inherit;
-      }
+      .animate-slide-up { animation: slideUp 0.4s ease-out forwards; }
     </style>
 <script type="importmap">
 {
