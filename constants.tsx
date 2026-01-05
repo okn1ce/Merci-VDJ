@@ -3,6 +3,18 @@ import { PatchNote } from './types';
 
 export const PATCH_NOTES: PatchNote[] = [
   {
+    "version": "3.1.0",
+    "date": "05/01/2026",
+    "title": "Nouvelle interface",
+    "description": "On change de style (encore!) mais cette fois c'est pour des raisons de performance.",
+    "changes": [
+      {
+        "type": "new",
+        "text": "Toute nouvelle interface beaucoup plus propre, lisse et fluide. Performance améliorées d'environ 50%. Chargement plus rapide."
+      }
+    ]
+  },
+  {
     "version": "3.0.1",
     "date": "02/01/2026",
     "title": "Bonne année! ",
@@ -47,4 +59,3 @@ export const PATCH_NOTES: PatchNote[] = [
     ]
   }
 ];
-
